@@ -1,0 +1,32 @@
+=== TOP-LEVEL (visible) ===
+hwnd=2689596 cls=Shell_TrayWnd title='' rect=(0, 680, 1280, 720)
+hwnd=2167050 cls=PseudoConsoleWindow title='' rect=(0, 0, 0, 0)
+hwnd=591858 cls=PseudoConsoleWindow title='' rect=(0, 0, 0, 0)
+hwnd=1050750 cls=PseudoConsoleWindow title='' rect=(0, 0, 0, 0)
+hwnd=3737756 cls=PseudoConsoleWindow title='' rect=(0, 0, 0, 0)
+hwnd=132890 cls=PseudoConsoleWindow title='' rect=(0, 0, 0, 0)
+hwnd=1181396 cls=CASCADIA_HOSTING_WINDOW_CLASS title='OC | Thống kê token dùng hàng ngày' rect=(-8, -8, 1288, 688)
+hwnd=197438 cls=Chrome_WidgetWin_1 title='Home - Canva and 12 more pages - Work - Microsoft\u200b Edge' rect=(-32000, -32000, -31840, -31972)
+hwnd=6362256 cls=PseudoConsoleWindow title='' rect=(0, 0, 0, 0)
+hwnd=3213156 cls=CASCADIA_HOSTING_WINDOW_CLASS title='OC | Tiếp tục QL_SINH_VIEN_21 từ trang 27 ...' rect=(-8, -8, 1288, 688)
+hwnd=525554 cls=PPTFrameClass title='C&B Onboard_new - PowerPoint' rect=(-8, -8, 1288, 688)
+hwnd=132458 cls=rctrl_renwnd32 title='Inbox - Dkeiz_20260828 - Outlook' rect=(-32000, -32000, -31840, -31972)
+hwnd=262450 cls=TeamsWebView title='Communities and storyline | Huong Chu(CHU THỊ HƯƠNG_PVN) | Microsoft Teams' rect=(-32000, -32000, -31840, -31972)
+hwnd=2687472 cls=#32770 title='QL_SINH_VIEN_21 Properties' rect=(785, 160, 1162, 676)
+hwnd=12980250 cls=CabinetWClass title='access' rect=(516, 184, 1164, 631)
+hwnd=262926 cls=CabinetWClass title='Downloads' rect=(-32000, -32000, -31840, -31972)
+hwnd=1512916 cls=Windows.UI.Core.CoreWindow title='Settings' rect=(0, 1, 750, 481)
+hwnd=2098750 cls=ApplicationFrameWindow title='Settings' rect=(58, 42, 824, 531)
+hwnd=4393264 cls=NarratorHelperWindow title='' rect=(-32000, -32000, -31984, -31984)
+hwnd=131690 cls=Windows.UI.Core.CoreWindow title='Microsoft Text Input Application' rect=(0, 0, 1280, 720)
+hwnd=327778 cls=DummyDWMListenerWindow title='' rect=(0, 0, 0, 0)
+hwnd=131820 cls=EdgeUiInputTopWndClass title='' rect=(15, 0, 1280, 4)
+hwnd=264306 cls=DummyDWMListenerWindow title='' rect=(0, 0, 0, 0)
+hwnd=264262 cls=DummyDWMListenerWindow title='' rect=(0, 0, 0, 0)
+hwnd=1771800 cls=Progman title='Program Manager' rect=(0, 0, 1280, 720)
+=== WIZARD TREE (hwnd=1181396) ===
+hwnd=1181396 cls=CASCADIA_HOSTING_WINDOW_CLASS text='OC | Thống kê token dùng hàng ngày' rect=(-8, -8, 1288, 688) vis=1
+  hwnd=5769048 cls=DRAG_BAR_WINDOW_CLASS text='' rect=(1097, 0, 1280, 32) vis=1
+  hwnd=1181538 cls=Windows.UI.Composition.DesktopWindowContentBridge text='DesktopWindowXamlSource' rect=(0, -1, 1280, 680) vis=1
+    hwnd=1771240 cls=Windows.UI.Input.InputSite.WindowClass text='' rect=(0, -1, 0, -1) vis=1
+  hwnd=1771240 cls=Windows.UI.Input.InputSite.WindowClass text='' rect=(0, -1, 0, -1) vis=1
