@@ -1,0 +1,131 @@
+=== TABLE SINHVIEN === rows=30
+COLUMNS (name:type):
+    MASV = varwchar/text
+    HOSV = varwchar/text
+    TENSV = varwchar/text
+    PHAI = boolean
+    NGAYSINH = currency
+    DIACHI = varwchar/text
+    DIENTHOAI = varwchar/text
+    MALOP = varwchar/text
+DATA:
+    ['A101', 'Lê Kiều', 'Oanh', True, pywintypes.datetime(1978, 12, 10, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '12 Nguyễn Trãi Q3', '7896746', 'CDTH1A']
+    ['A102', 'Trần Văn', 'An', False, pywintypes.datetime(1976, 11, 15, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '14 Đinh Tiên Hoàng Q1', '7613123', 'CDTH1A']
+    ['A103', 'Nguyễn Thúy', 'Hiền', True, pywintypes.datetime(1978, 12, 2, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '13 Trần Bình Trọng QPN', '9123126', 'CDTH1A']
+    ['A104', 'Nguyễn Thành', 'Nhân', False, pywintypes.datetime(1980, 11, 11, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '15 Nguyễn Trãi Q3', '7213546', 'CDTH1A']
+    ['A201', 'Nguyễn', 'Lâm', False, pywintypes.datetime(1988, 10, 10, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '12 Trần Não PN', None, 'CDTH2A']
+    ['A202', 'Tạ Thanh', 'Lam', True, pywintypes.datetime(1986, 11, 1, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '172E Nguyễn Hồng GV', None, 'CDTH2A']
+    ['A203', 'Hoàng', 'Minh', False, pywintypes.datetime(1988, 11, 22, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '132/12 Nguyễn Trãi Q5', None, 'CDTH2A']
+    ['A204', 'Lê Thị', 'Hoa', True, pywintypes.datetime(1987, 3, 12, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '98/16 Nguyễn Kiệm PN', '7892137', 'CDTH2A']
+    ['B101', 'Lê Bá', 'Hải', False, pywintypes.datetime(1978, 12, 12, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '12 Trương Định Q3', '8131231', 'CDTH1B']
+    ['B102', 'Phạm Thị', 'Hoa', True, pywintypes.datetime(1979, 9, 9, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '5 Lê Lai Q1', None, 'CDTH1B']
+    ['B103', 'Phạm Văn', 'Phúc', False, pywintypes.datetime(1980, 12, 12, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '12 Phạm Văn Trị GV', None, 'CDTH1B']
+    ['B104', 'Phạm Văn', 'Hùng', False, pywintypes.datetime(1979, 9, 4, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '50 Nguyễn Kiệm PN', '9541312', 'CDTH1B']
+    ['B105', 'Nguyễn Thanh', 'Tâm', False, pywintypes.datetime(1981, 5, 7, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '45 Lê Quang Định BT', '8231312', 'CDTH1B']
+    ['B201', 'Đỗ', 'Hoàng', False, pywintypes.datetime(1987, 9, 11, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '12 Nguyễn Kiệm PN', '9347477', 'CDTH2B']
+    ['B202', 'Trần Thị', 'Dung', True, pywintypes.datetime(1989, 10, 1, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '39/12a Nguyễn Thái Sơn', None, 'CDTH2B']
+    ['B203', 'Lê Văn', 'Lợi', False, pywintypes.datetime(1989, 1, 12, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '145/1A Nguyễn Hồng GV', None, 'CDTH2B']
+    ['B204', 'Đặng Trung', 'Tiến', False, pywintypes.datetime(1988, 12, 22, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '11/1E Lê Lợi GV', None, 'CDTH2B']
+    ['C3501', 'Nguyễn Văn', 'Hùng', False, pywintypes.datetime(1980, 12, 12, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '45 Bạch Đằng BT', None, 'TCTH35A']
+    ['C3502', 'Lê Thị Tường', 'Vi', True, pywintypes.datetime(1979, 9, 15, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '56 Hai Bà Trưng Q1', '8512631', 'TCTH35A']
+    ['C3503', 'Đỗ Kim', 'Loan', True, pywintypes.datetime(1982, 3, 4, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '8 Cống Quỳnh Q1', '7231232', 'TCTH35A']
+    ['C3504', 'Trần', 'Hùng', False, pywintypes.datetime(1982, 3, 4, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '45 Nguyễn Trãi Q2', '7213131', 'TCTH35B']
+    ['C3505', 'Nguyễn Văn', 'Cường', False, pywintypes.datetime(1989, 12, 11, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '123 Nguyễn Oanh GV', '7879899', 'TCTH35B']
+    ['C3506', 'Trần', 'Lâm', False, pywintypes.datetime(1989, 11, 1, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '45 Quang Trung GV', None, 'TCTH35B']
+    ['E3601', 'Nguyễn Hoàng', 'Nam', False, pywintypes.datetime(1985, 7, 12, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '12/A Võ Thị Sáu Q3', None, 'TCTH36A']
+    ['E3602', 'Nguyễn Hoàng', 'Ly', True, pywintypes.datetime(1985, 7, 3, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '32/1 Phan Đăng Lưu BT', None, 'TCTH36A']
+    ['E3603', 'Võ Tấn', 'Lộc', False, pywintypes.datetime(1990, 12, 20, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '21/E Nguyễn Đình Chiểu Q3', '8392879', 'TCTH36A']
+    ['E3604', 'Trần Thị Ngọc', 'Anh', True, pywintypes.datetime(1990, 4, 18, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '89 Nguyễn T Minh Khai Q3', None, 'TCTH36B']
+    ['E3605', 'Trần Thanh', 'Tuấn', False, pywintypes.datetime(1989, 12, 22, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '38 Võ Văn Tần Q3', '3732839', 'TCTH36B']
+    ['E3606', 'Phạm Hoàng', 'Long', False, pywintypes.datetime(1987, 2, 14, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '12/21a Nguyễn Văn Lượng GV', None, 'TCTH36A']
+    ['E3607', 'Võ Văn', 'Hùng', False, pywintypes.datetime(1988, 12, 3, 0, 0, tzinfo=TimeZoneInfo('GMT Standard Time', True)), '98/2D Lê Đức Thọ GV', None, 'TCTH36B']
+=== TABLE MONHOC === rows=9
+COLUMNS (name:type):
+    MAMH = varwchar/text
+    TENMH = varwchar/text
+    SOTC = decimal
+DATA:
+    ['CSDL', 'Cơ sở dữ liệu', 4]
+    ['CTDL', 'Cấu trúc dữ liệu', 4]
+    ['CTR', 'Chính trị', 3]
+    ['DHOA', 'Đồ họa máy tính', 4]
+    ['JAVA', 'Lập trình Java', 5]
+    ['NMTH', 'Nhập môn tin học', 4]
+    ['PPLT', 'Phương pháp lập trình', 5]
+    ['PTWB', 'Phát triển Web', 3]
+    ['TRR', 'Toán rời rạc', 3]
+=== TABLE KETQUA === rows=67
+COLUMNS (name:type):
+    MASV = varwchar/text
+    MAMH = varwchar/text
+    DIEMLAN1 = single
+    DIEMLAN2 = single
+DATA:
+    ['A101', 'CTR', 6.0, 0.0]
+    ['A101', 'PPLT', 3.0, 6.0]
+    ['A101', 'PTWB', 5.0, 0.0]
+    ['A101', 'TRR', 7.0, 0.0]
+    ['A102', 'DHOA', 6.5, 0.0]
+    ['A102', 'PPLT', 7.0, 0.0]
+    ['A102', 'PTWB', 8.0, 0.0]
+    ['A102', 'TRR', 9.0, 0.0]
+    ['A103', 'CTR', 8.0, 0.0]
+    ['A103', 'DHOA', 4.0, 0.0]
+    ['A103', 'PPLT', 9.0, 0.0]
+    ['A103', 'PTWB', 8.0, 0.0]
+    ['A103', 'TRR', 9.0, 0.0]
+    ['A104', 'CTR', 2.0, 5.0]
+    ['A104', 'DHOA', 9.0, 0.0]
+    ['A104', 'PPLT', 5.0, 0.0]
+    ['A104', 'PTWB', 6.0, 0.0]
+    ['A201', 'PTWB', 8.0, 0.0]
+    ['A202', 'JAVA', 4.0, 0.0]
+    ['A203', 'CTDL', 5.0, 0.0]
+    ['A204', 'CTDL', 7.0, 0.0]
+    ['A204', 'JAVA', 7.0, 0.0]
+    ['B101', 'CTR', 3.0, 1.0]
+    ['B101', 'PPLT', 4.0, 4.0]
+    ['B101', 'PTWB', 10.0, 0.0]
+    ['B102', 'CTR', 9.0, 0.0]
+    ['B102', 'PPLT', 7.0, 0.0]
+    ['B102', 'PTWB', 2.0, 0.0]
+    ['B103', 'PPLT', 7.0, 0.0]
+    ['B103', 'PTWB', 6.0, 0.0]
+    ['B104', 'PPLT', 8.0, 0.0]
+    ['B104', 'PTWB', 8.5, 0.0]
+    ['B105', 'CTR', 4.0, 7.0]
+    ['B105', 'PPLT', 5.0, 0.0]
+    ['B105', 'PTWB', 8.0, 0.0]
+    ['B204', 'CSDL', 7.5, 0.0]
+    ['B204', 'CTDL', 4.0, 3.0]
+    ['C3501', 'CSDL', 8.0, 0.0]
+    ['C3501', 'CTDL', 4.0, 6.0]
+    ['C3501', 'CTR', 6.0, 0.0]
+    ['C3501', 'PTWB', 8.0, 0.0]
+    ['C3502', 'CSDL', 9.0, 0.0]
+    ['C3502', 'CTDL', 4.0, 8.0]
+    ['C3503', 'CSDL', 10.0, 0.0]
+    ['C3503', 'PTWB', 9.0, 0.0]
+    ['C3504', 'CSDL', 6.0, 0.0]
+    ['C3504', 'CTDL', 4.0, 3.0]
+    ['C3504', 'PTWB', 3.0, 0.0]
+    ['C3505', 'CTDL', 6.0, 0.0]
+    ['C3505', 'DHOA', 8.0, 0.0]
+    ['C3505', 'PPLT', 3.0, 5.0]
+    ['E3601', 'CSDL', 5.0, 0.0]
+    ['E3601', 'PPLT', 3.0, 0.0]
+    ['E3602', 'PPLT', 7.0, 0.0]
+    ['E3602', 'PTWB', 6.0, 0.0]
+    ['E3603', 'CSDL', 5.0, 0.0]
+    ['E3603', 'CTDL', 4.0, 6.0]
+    ['E3603', 'CTR', 5.0, 0.0]
+    ['E3603', 'PPLT', 6.0, 0.0]
+    ['E3604', 'CSDL', 8.0, 0.0]
+    ['E3604', 'CTDL', 7.0, 0.0]
+    ['E3604', 'CTR', 7.0, 0.0]
+    ['E3604', 'PPLT', 8.0, 0.0]
+    ['E3604', 'PTWB', 9.0, 0.0]
+    ['E3607', 'CSDL', 6.0, 0.0]
+    ['E3607', 'DHOA', 7.0, 0.0]
+    ['E3607', 'PPLT', 8.0, 0.0]
+DONE
