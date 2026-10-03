@@ -1,0 +1,31 @@
+TOP: '' cls='Shell_TrayWnd' hwnd=2689596
+TOP: 'CLSS and 14 more pages - Work - Microsoft\u200b Edge' cls='Chrome_WidgetWin_1' hwnd=197438
+TOP: 'Microsoft Visual Basic' cls='#32770' hwnd=9049242
+TOP: 'Access - _formtest : Database- D:\\Users\\Dkeiz_Dao\\Desktop\\access\\_formtest.accdb (Access 2007 - 2016 file format)' cls='OMain' hwnd=1247484
+TOP: '' cls='MSO_BORDEREFFECT_WINDOW_CLASS' hwnd=16975840
+TOP: '' cls='MSO_BORDEREFFECT_WINDOW_CLASS' hwnd=1969140
+TOP: '' cls='MSO_BORDEREFFECT_WINDOW_CLASS' hwnd=3608842
+TOP: '' cls='MSO_BORDEREFFECT_WINDOW_CLASS' hwnd=3343706
+TOP: 'Oracle Fusion Middleware Forms Services' cls='SunAwtFrame' hwnd=394712
+TOP: 'C:\\Windows\\system32\\cmd.exe' cls='ConsoleWindowClass' hwnd=14942510
+TOP: 'HCP19C' cls='CabinetWClass' hwnd=262926
+TOP: 'Inbox - Dkeiz_20260828 - Outlook' cls='rctrl_renwnd32' hwnd=132458
+TOP: '' cls='PseudoConsoleWindow' hwnd=6362256
+TOP: 'OC | Tiếp tục QL_SINH_VIEN_21 từ trang 27 ...' cls='CASCADIA_HOSTING_WINDOW_CLASS' hwnd=3213156
+TOP: 'C&B Onboard_new - PowerPoint' cls='PPTFrameClass' hwnd=525554
+TOP: '' cls='PseudoConsoleWindow' hwnd=591858
+TOP: '' cls='PseudoConsoleWindow' hwnd=1050750
+TOP: '' cls='PseudoConsoleWindow' hwnd=3737756
+TOP: '' cls='PseudoConsoleWindow' hwnd=132890
+TOP: 'next-server (v16.3.5)' cls='CASCADIA_HOSTING_WINDOW_CLASS' hwnd=1181396
+TOP: 'Communities and storyline | Huong Chu(CHU THỊ HƯƠNG_PVN) | Microsoft Teams' cls='TeamsWebView' hwnd=262450
+TOP: 'access' cls='CabinetWClass' hwnd=12980250
+TOP: 'Settings' cls='Windows.UI.Core.CoreWindow' hwnd=1512916
+TOP: 'Settings' cls='ApplicationFrameWindow' hwnd=2098750
+TOP: '' cls='NarratorHelperWindow' hwnd=4393264
+TOP: 'Microsoft Text Input Application' cls='Windows.UI.Core.CoreWindow' hwnd=131690
+TOP: '' cls='DummyDWMListenerWindow' hwnd=327778
+TOP: '' cls='EdgeUiInputTopWndClass' hwnd=131820
+TOP: '' cls='DummyDWMListenerWindow' hwnd=264306
+TOP: '' cls='DummyDWMListenerWindow' hwnd=264262
+TOP: 'Program Manager' cls='Progman' hwnd=1771800
