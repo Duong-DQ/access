@@ -1,0 +1,5 @@
+REMOVED_MODULES: none
+KHOA cols=2 rows=-1
+SINHVIEN cols=8 rows=-1
+MONHOC cols=3 rows=-1
+KETQUA cols=3 rows=-1
