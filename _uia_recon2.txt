@@ -1,0 +1,4 @@
+opened db
+pywinauto OK
+ALLWINDOWS(14):
+NO Access window
