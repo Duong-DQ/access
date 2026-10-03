@@ -1,0 +1,333 @@
+==================== PAGE 1 ====================
+Tin học cơ sở 3
+Giảng viên:
+Email: 
+
+==================== PAGE 2 ====================
+Quan hệ giữa các bảng
+2
+Bài 2: QL_SINH_VIEN_1
+
+==================== PAGE 3 ====================
+1. Cho biết danh sách các môn học, gồm các thông tin sau: Mã môn học,
+Tên môn học, Số tiết
+2. Liệt kê danh sách sinh viên, gồm các thông tin sau: Mã sinh viên, Họ
+sinh viên, Tên sinh viên, Học bổng. Danh sách sẽ được sắp xếp theo thứ
+tự Mã sinh viên tăng dần
+3. Danh sách các sinh viên, gồm các thông tin sau: Mã sinh viên, Tên sinh
+viên, Phái, Ngày sinh. Danh sách sẽ được sắp xếp theo thứ tự Nam/Nữ
+4. Thông tin các sinh viên gồm: Họ tên sinh viên, Ngày sinh, Học bổng.
+Thông tin sẽ được sắp xếp theo thứ tự Ngày sinh tăng dần và Học bổng
+giảm dần
+5. Danh sách các môn học có tên bắt đầu bằng chữ Tr, gồm các thông tin:
+Mã môn, Tên môn, Số tiết
+3
+Phần 1: Querry
+==================== PAGE 4 ====================
+6. Liệt kê danh sách những sinh viên có chữ cái cuối cùng trong tên là I,
+gồm các thông tin: Họ tên sinh viên, Ngày sinh, Phái
+7. Danh sách những khoa có ký tự thứ hai của tên khoa có chứa chữ N,
+gồm các thông tin: Mã khoa, Tên khoa
+8. Liệt kê những sinh viên mà họ có chứa chữ Thị
+9. Cho biết danh sách những sinh viên ký tự đầu tiên của tên nằm trong
+khoảng từ a đến m, gồm các thông tin: Mã sinh viên, Họ tên sinh viên,
+Phái, Học bổng.
+10.Cho biết danh sách những sinh viên mà tên có chứa ký tự nằm trong
+khoảng từ a đến m, gồm các thông tin: Họ tên sinh viên, Ngày sinh, Nơi
+sinh, Học bổng. Danh sách được sắp xếp tăng dần theo họ tên sinh viên
+4
+Phần 1: Querry
+==================== PAGE 5 ====================
+11.Cho biết danh sách các sinh viên của khoa Anh văn, gồm các thông tin
+sau: Mã sinh viên, Họ tên sinh viên, Ngày sinh, Mã khoa
+12.Liệt kê danh sách sinh viên của khoa Tin học, gồm các thông tin sau:
+Mã sinh viên, Họ tên sinh viên, Ngày sinh. Danh sách sẽ được sắp xếp
+theo thứ tự Ngày sinh giảm dần
+13.Cho biết danh sách các sinh viên có học bổng lớn hơn 100,000, gồm các
+thông tin: Mã sinh viên, Họ tên sinh viên, Mã khoa, Học bổng. Danh
+sách sẽ được sắp xếp theo thứ tự Mã khoa giảm dần
+14.Liệt kê danh sách sinh viên sinh vào ngày 31/12/1982, gồm các thông
+tin: Họ tên sinh viên, Mã khoa, Học bổng. Danh sách sẽ được sắp xếp
+theo thứ tự ngày sinh giảm dần
+5
+Phần 1: Querry
+==================== PAGE 6 ====================
+15.Cho biết các sinh viên sinh sau ngày 31/12/1982, gồm các thông tin: Họ
+tên sinh viên, Ngày sinh, Nơi sinh, Học bổng. Danh sách sẽ được sắp
+xếp theo thứ tự ngày sinh giảm dần
+16.Liệt kê các sinh viên có học bổng lớn hơn 70,000 và sinh ở Long An,
+gồm các thông tin: Họ tên sinh viên, Mã khoa, Nơi sinh, Học bổng
+17.Danh sách các sinh viên của khoa Anh văn và khoa Vật lý, gồm các
+thông tin: Mã sinh viên, Mã khoa, Phái
+18.Cho biết những sinh viên có ngày sinh từ ngày 01/01/1980 đến ngày
+05/06/1982, gồm các thông tin: Mã sinh viên, Ngày sinh, Nơi sinh, Học
+bổng
+19.Danh sách những sinh viên có học bổng từ 200,000 đến 80,000, gồm các
+thông tin: Mã sinh viên, Ngày sinh, Phái, Mã khoa
+6
+Phần 1: Querry
+==================== PAGE 7 ====================
+20.Cho biết những môn học có số tiết lớn hơn 18 và nhỏ hơn 40, gồm các
+thông tin: Mã môn học, Tên môn học, Số tiết
+21.Liệt kê những sinh viên nam của khoa Anh văn, gồm các thông tin: Mã
+sinh viên, Họ tên sinh viên, Phái
+22.Danh sách sinh viên có nơi sinh ở Hà Nội và ngày sinh sau ngày
+01/01/1981, gồm các thông tin: Họ sinh viên, Tên sinh viên, Nơi sinh,
+Ngày sinh
+23.Liệt kê những sinh viên nữ, tên có chứa chữ N
+24.Danh sách các nam sinh viên khoa Vật lý có ngày sinh sau ngày
+30/5/1960
+7
+Phần 1: Querry
+==================== PAGE 8 ====================
+25.Cho biết danh sách sinh viên gồm các thông tin sau: Mã sinh viên, Tuổi,
+Nơi sinh, Mã khoa. Trong đó Tuổi sẽ được tính bằng cách lấy năm hiện
+hành trừ cho năm sinh
+26.Cho biết những sinh viên có tuổi lớn hơn 20, thông tin gồm: Họ tên sinh
+viên, Tuổi, Học bổng
+27.Danh sách những sinh viên có tuổi từ 20 đến 30, thông tin gồm: Họ tên
+sinh viên, Tuổi, Tên khoa
+28.Liệt kê bảng điểm của sinh viên khoa Vật lý, gồm các thông tin: Tên
+khoa, Họ tên sinh viên, Tên môn học, Số tiết, Điểm
+8
+Phần 1: Querry
+==================== PAGE 9 ====================
+ Create -> Design Query
+ Hộp thoại Show Table -> Add.
+9
+Phần 1: Querry
+
+==================== PAGE 10 ====================
+ Chuyển Datasheet view để xem kết quả
+10
+Phần 1: Querry
+
+==================== PAGE 11 ====================
+Thông tin các sinh viên gồm: Họ tên sinh viên, Ngày sinh, Học bổng.
+Thông tin sẽ được sắp xếp theo thứ tự Ngày sinh tăng dần và Học bổng
+giảm dần
+11
+Phần 1: Querry
+Ho va ten: [HOSV] & " " & 
+[TENSV]
+Ascending
+Descending
+==================== PAGE 12 ====================
+Danh sách các môn học có tên bắt đầu bằng chữ T, gồm các thông tin: Mã
+môn, Tên môn, Số tiết
+12
+Phần 1: Querry
+Like "T*"
+Left([TENMH],1)='T'
+==================== PAGE 13 ====================
+Liệt kê danh sách những sinh viên có chữ cái cuối cùng trong tên là I, gồm
+các thông tin: Họ tên sinh viên, Ngày sinh, Phái
+13
+Phần 1: Querry
+Like “*I”
+Bỏ tick
+Right([TENSV],1)="I"
+Ho va ten: [HOSV] & " " & 
+[TENSV]
+==================== PAGE 14 ====================
+Liệt kê những sinh viên mà họ có chứa chữ Thị
+14
+Phần 1: Querry
+Ho va ten: [HOSV] 
+& " " & [TENSV]
+Like "*Thị*"
+Bỏ tick
+==================== PAGE 15 ====================
+Cho biết danh sách những sinh viên ký tự đầu tiên của tên nằm trong
+khoảng từ a đến m, gồm các thông tin: Mã sinh viên, Họ tên sinh viên,
+Phái, Học bổng.
+15
+Phần 1: Querry
+Like “[a-m]*”
+Bỏ tick
+Ho va ten: [HOSV] 
+& " " & [TENSV]
+==================== PAGE 16 ====================
+Cho biết danh sách các sinh viên có học bổng lớn hơn 100,000, gồm các
+thông tin: Mã sinh viên, Họ tên sinh viên, Mã khoa, Học bổng. Danh sách
+sẽ được sắp xếp theo thứ tự Mã khoa giảm dần.
+16
+Phần 1: Querry
+Ho va ten: [HOSV] 
+& " " & [TENSV]
+>100000
+Descending
+==================== PAGE 17 ====================
+Liệt kê danh sách sinh viên sinh vào ngày 31/12/1982, gồm các thông tin:
+Họ tên sinh viên, Mã khoa, Học bổng. Danh sách sẽ được sắp xếp theo thứ
+tự ngày sinh giảm dần
+17
+Phần 1: Querry
+Ho va ten: [HOSV] 
+& " " & [TENSV]
+#31/12/1982#
+==================== PAGE 18 ====================
+Cho biết những sinh viên có ngày sinh từ ngày 01/01/1980 đến ngày
+05/06/1982, gồm các thông tin: Mã sinh viên, Ngày sinh, Nơi sinh, Học
+bổng
+18
+Phần 1: Querry
+>#01/01/1980# And <#05/06/1982#
+==================== PAGE 19 ====================
+Cho biết những môn học có số tiết lớn hơn 18 và nhỏ hơn 40, gồm các
+thông tin: Mã môn học, Tên môn học, Số tiết
+19
+Phần 1: Querry
+>18 And <40
+==================== PAGE 20 ====================
+Liệt kê những sinh viên nữ, tên có chứa chữ N
+20
+Phần 1: Querry
+Like "*n*"
+No
+==================== PAGE 21 ====================
+Danh sách những sinh viên có tuổi từ 20 đến 50, thông tin gồm: Họ tên sinh
+viên, Tuổi, Tên khoa
+21
+Phần 1: Querry
+TUOI: Year(Date())-
+Year([NGAYSINH])>=20 And <=50
+==================== PAGE 22 ====================
+1. Danh sách điểm môn của từng sinh viên:
+22
+Phần 1: Sử dụng QBE để tạo Crosstab
+
+==================== PAGE 23 ====================
+2. Điểm và điểm trung bình môn:
+23
+Phần 1: Sử dụng QBE để tạo Crosstab
+
+==================== PAGE 24 ====================
+3. Thống kê số môn đỗ, trượt:
+24
+Phần 1: Sử dụng QBE để tạo Crosstab
+
+==================== PAGE 25 ====================
+Để thiết lập là Crosstab, nhấn phải chuột và chọn Crosstab Query (1), lúc
+này xuất hiện dòng crosstab và total (2).
+25
+Phần 1: Querry - Crosstab
+
+==================== PAGE 26 ====================
+26
+Phần 1: Querry - Crosstab
+Ho va ten: [HOSV] & " " & [TENSV]
+Row Heading] Avg
+Value
+Column HeadingGroup By
+==================== PAGE 27 ====================
+27
+Phần 1: Querry -Crosstab 
+ĐTB: Round(Avg([DIEM]),1)
+Hoặc
+kq đạt: Count(IIf([DIEM]>=5,"Đỗ"))
+kq trượt: Count(IIf([DIEM]<5,"Trượt"))
+Row Heading
+Expression
+==================== PAGE 28 ====================
+28
+Phần 2: Form
+
+==================== PAGE 29 ====================
+1. Màn hình danh mục môn học (dạng Columnar):
+29
+Phần 2: Form
+
+==================== PAGE 30 ====================
+2. Màn hình Danh mục môn học (dạng Tabular)
+30
+Phần 2: Form
+
+==================== PAGE 31 ====================
+3. Màn hình Danh mục sinh viên (dạng Datasheet)
+31
+Phần 2: Form
+
+==================== PAGE 32 ====================
+4. Màn hình Kết quả học tập theo từng môn học (MainSub)
+32
+Phần 2: Form
+
+==================== PAGE 33 ====================
+5. Màn hình Kết quả học tập theo từng sinh viên (MainSub)
+33
+Phần 2: Form
+
+==================== PAGE 34 ====================
+34
+Phần 2: Form Wizard
+
+==================== PAGE 35 ====================
+35
+Phần 2: Form Wizard
+
+==================== PAGE 36 ====================
+36
+Phần 2: Form Wizard
+
+==================== PAGE 37 ====================
+37
+Phần 2: Form Main-Sub.
+
+==================== PAGE 38 ====================
+38
+Phần 2: Form Main-Sub.
+
+==================== PAGE 39 ====================
+39
+Phần 2: Form Main-Sub.
+
+==================== PAGE 40 ====================
+40
+Phần 2: Form Main-Sub.
+
+==================== PAGE 41 ====================
+1. Danh sách Khoa (dạng Columnar):
+41
+Phần 3: REPORT
+
+==================== PAGE 42 ====================
+2. Danh sách môn học (dạng Tabular):
+42
+Phần 3: REPORT
+
+==================== PAGE 43 ====================
+3. Danh sách sinh viên (nguồn dữ liệu trên nhiều bảng)
+43
+Phần 3: REPORT
+
+==================== PAGE 44 ====================
+Create -> Nhóm lệnh Reports -> Report Wizard
+44
+Phần 3: Report Wizard
+
+==================== PAGE 45 ====================
+Chọn bảng nguồn -> Chọn đẩy các trường đưa vào report -> Next
+45
+Phần 3: Report Wizard
+
+==================== PAGE 46 ====================
+Chọn trường phân nhóm -> Next
+46
+Phần 3: Report Wizard
+
+==================== PAGE 47 ====================
+Chọn trường sắp xếp và chiều sắp xếp ->Next
+47
+Phần 3: Report Wizard
+
+==================== PAGE 48 ====================
+Chọn kiểu trình bày trang report -> Next
+48
+Phần 3: Report Wizard
+
+==================== PAGE 49 ====================
+Đặt tiêu đề và nhấn kết thúc -> Finish
+49
+Phần 3: Report Wizard
+
