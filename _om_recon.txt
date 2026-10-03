@@ -1,0 +1,19 @@
+OMain=1378964
+descendants=26
+CLASSES: MsoCommandBarDock:4 MsoWorkPane:4 NetUIHWND:4 NetUICtrlNotifySink:4 RICHEDIT60W:3 MsoCommandBar:2 NUIPane:2 NetUINativeHWNDHost:2 MDIClient:1
+--- windows with text ---
+hwnd=3738048 cls=MsoCommandBarDock rect=(79, 231, 79, 540) text='MsoDockLeft'
+hwnd=3475124 cls=MsoCommandBarDock rect=(1037, 231, 1037, 540) text='MsoDockRight'
+hwnd=3474944 cls=MsoCommandBarDock rect=(79, 540, 1037, 562) text='MsoDockBottom'
+hwnd=1643842 cls=MsoCommandBar rect=(79, 540, 1037, 562) text='Status Bar'
+hwnd=2364510 cls=MsoWorkPane rect=(79, 540, 1037, 562) text='Status Bar'
+hwnd=1837574 cls=MsoCommandBarDock rect=(79, 78, 1037, 231) text='MsoDockTop'
+hwnd=3737154 cls=MsoCommandBar rect=(79, 78, 1037, 231) text='Ribbon'
+hwnd=4658282 cls=MsoWorkPane rect=(79, 78, 1037, 231) text='Ribbon'
+hwnd=3607090 cls=NetUINativeHWNDHost rect=(79, 231, 229, 540) text='Navigation Pane Host'
+hwnd=3347730 cls=NetUINativeHWNDHost rect=(229, 231, 1037, 255) text='ODocTabs'
+--- interactive (tree/list/combo/button/edit) ---
+hwnd=2233462 cls=NetUIHWND rect=(79, 540, 1037, 562) text=''
+hwnd=31721254 cls=NetUIHWND rect=(79, 78, 1037, 231) text=''
+hwnd=3543726 cls=NetUIHWND rect=(79, 231, 229, 540) text=''
+hwnd=1774916 cls=NetUIHWND rect=(229, 231, 1037, 255) text=''
