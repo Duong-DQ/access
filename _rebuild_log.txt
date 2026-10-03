@@ -1,0 +1,23 @@
+READ  SINHVIEN=30  MONHOC=9  KETQUA=67
+SINHVIEN cols: MASV,HOSV,TENSV,PHAI,NGAYSINH,DIACHI,DIENTHOAI,MALOP
+MONHOC   cols: MAMH,TENMH,SOTC
+KETQUA   cols: MASV,MAMH,DIEMLAN1,DIEMLAN2
+DROPPED KETQUA
+DROPPED SINHVIEN
+DROPPED MONHOC
+DROP KHOA (skip): (-2147352567, 'Exception occurred.', (0, 'Microsoft Access Database Engine', "Table 'KHOA' does not exist.", None, 5003011, -2147217865), None)
+CREATED KHOA, SINHVIEN, MONHOC, KETQUA
+KHOA rows=8  codes=CDTH1A,CDTH2A,CDTH1B,CDTH2B,TCTH35A,TCTH35B,TCTH36A,TCTH36B
+SINHVIEN inserted=30
+MONHOC inserted=9
+KETQUA inserted=67
+VERIFY counts:  KHOA=8  SINHVIEN=30  MONHOC=9  KETQUA=67
+  SV: A101 | Lê Kiều Oanh | noisinh=12 Nguyễn Trãi Q3 | makH=CDTH1A
+  SV: A102 | Trần Văn An | noisinh=14 Đinh Tiên Hoàng Q1 | makH=CDTH1A
+  SV: A103 | Nguyễn Thúy Hiền | noisinh=13 Trần Bình Trọng QPN | makH=CDTH1A
+  MH: CSDL | Cơ sở dữ liệu | 4
+  MH: CTDL | Cấu trúc dữ liệu | 4
+  MH: CTR | Chính trị | 3
+  KQ: A101 | CTR | 6.0
+  KQ: A101 | PPLT | 6.0
+  KQ: A101 | PTWB | 5.0
