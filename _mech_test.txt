@@ -1,0 +1,11 @@
+T1 ADO CREATE TABLE (PK): OK
+T1 ADO CREATE+INSERT: OK
+T2 DAO DAO.DBEngine: FAIL com_error(-2147221005, 'Invalid class string', None, None)
+T2 DAO DAO.DBEngine.36: FAIL com_error(-2147221164, 'Class not registered', None, None)
+T2 DAO DAO.DBEngine.16: FAIL com_error(-2147221005, 'Invalid class string', None, None)
+T2 DAO DAO.DBEngine.12.0: FAIL com_error(-2147221005, 'Invalid class string', None, None)
+T4 Access.OpenCurrentDatabase: OK
+T4 DoCmd.RunSQL: FAIL com_error(-2147352567, 'Exception occurred.', (0, None, 'The RunSQL action was canceled.', None, -1, -2146825787), None)
+T4 app.VBE: OK, VBProjects=1
+T4 Access.CloseCurrentDatabase: OK
+CLEANUP scratch removed
